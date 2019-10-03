@@ -22,8 +22,17 @@ to_visit.reverse()
 print(f'Reverse order: {to_visit}')
 
 # Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
+to_visit.reverse()
+print(f'Original List: {to_visit}')
 
 # Use sort() to change your list so it’s stored in alphabetical order.
+to_visit.sort()
+
 # Print the list to show that its order has been changed.
+print(f'Alphabetically sorted: {to_visit}')
+
 # Use sort() to change your list so it’s stored in reverse alphabetical order.
+to_visit.sort(reverse=True)
+
 # Print the list to show that its order has changed.
+print(f'Reverse Alphabetical: {to_visit}')
